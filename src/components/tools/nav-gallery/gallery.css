@@ -1,0 +1,6 @@
+.gallery-frame {
+  /* separate each preview block from page background */
+  background: linear-gradient(180deg, rgba(2,6,23,0.02), rgba(2,6,23,0.06));
+  border-top: 1px solid rgba(0,0,0,.06);
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
