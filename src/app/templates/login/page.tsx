@@ -1,0 +1,18 @@
+"use client";
+import { signIn } from "next-auth/react";
+
+export default function LoginPage() {
+  return (
+    <main className="min-h-screen grid place-items-center p-6">
+      <div className="max-w-sm w-full space-y-4">
+        <h1 className="text-2xl font-bold text-center">Sign in</h1>
+        <button
+          className="btn btn-primary w-full"
+          onClick={() => signIn("google")}
+        >
+          Continue with Google
+        </button>
+      </div>
+    </main>
+  );
+}
